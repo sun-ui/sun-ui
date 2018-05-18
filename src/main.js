@@ -3,7 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
+import sunUI from './components/index'
+Vue.use(sunUI)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
